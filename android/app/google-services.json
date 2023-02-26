@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76167972493",
+    "project_id": "projeto-teste-622f4",
+    "storage_bucket": "projeto-teste-622f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76167972493:android:c80f35d976c9765d2304c4",
+        "android_client_info": {
+          "package_name": "com.example.franq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76167972493-3a06etipodc8vsi594isp84amp27ekic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhF_3cQ9Vlv-0cNdfEL04zckKuT1HubBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76167972493-3a06etipodc8vsi594isp84amp27ekic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

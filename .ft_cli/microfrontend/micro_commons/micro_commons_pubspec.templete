@@ -1,0 +1,35 @@
+name: {{projectNameComplete}}
+description: {{projectNameComplete.titleCase}}
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  flut_micro_commons_dependencies:
+    git:
+      url: 'git@gitlab.com:condoconta/frontend/flutter-mobile-condoconta/flut_micro_commons_dependencies.git'
+      ref: 'main'
+  flut_micro_commons_shared:
+    git:
+      url: 'git@gitlab.com:condoconta/frontend/flutter-mobile-condoconta/flut_micro_commons_shared.git'
+      ref: 'main'
+dev_dependencies:
+  mobx_codegen: ^2.0.4
+  modular_test: ^1.0.1+1
+  modular_codegen: ^3.0.3
+  build_runner: ^2.1.7
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  assets:
+    - assets/lang/
+
+localizationDir: assets/lang
