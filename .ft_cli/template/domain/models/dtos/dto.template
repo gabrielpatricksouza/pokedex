@@ -1,4 +1,0 @@
-class {{dtoNameClass.pascalCase}} {
-  {{dtoNameClass.pascalCase}}();
-}
-  

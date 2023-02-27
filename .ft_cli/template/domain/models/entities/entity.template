@@ -1,4 +1,0 @@
-class {{entityNameClass.pascalCase}} {
-  {{entityNameClass.pascalCase}}();
-}
-  
